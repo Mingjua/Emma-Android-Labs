@@ -12,6 +12,8 @@
 
         <!-- Text color   -->
         <item name= "android:textColor"> @color/my_text</item>
+
+
     </style>
 
 
