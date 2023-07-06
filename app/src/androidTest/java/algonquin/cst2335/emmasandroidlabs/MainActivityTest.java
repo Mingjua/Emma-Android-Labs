@@ -61,7 +61,11 @@ public class MainActivityTest {
         ViewInteraction textView = onView(withId(R.id.textView));
 
         //check that its text matches "You shall not pass!"
+<<<<<<< HEAD
         textView.check(matches(withText("You shall not pass ")));
+=======
+        textView.check(matches(withText("You shall not pass")));
+>>>>>>> origin/Week5
     }
 
     /**
@@ -88,7 +92,11 @@ public class MainActivityTest {
         ViewInteraction textView = onView(withId(R.id.textView));
 
         //check that the text matches "You shall not pass!
+<<<<<<< HEAD
         textView.check(matches(withText("You shall not pass ")));
+=======
+        textView.check(matches(withText("You shall not pass")));
+>>>>>>> origin/Week5
 
     }
 
@@ -116,7 +124,11 @@ public class MainActivityTest {
         ViewInteraction textView = onView(withId(R.id.textView));
 
         //check that its text matches "You shall not pass!"
+<<<<<<< HEAD
         textView.check(matches(withText("You shall not pass ")));
+=======
+        textView.check(matches(withText("You shall not pass")));
+>>>>>>> origin/Week5
     }
 
     /**
@@ -143,7 +155,11 @@ public class MainActivityTest {
         ViewInteraction textView = onView(withId(R.id.textView));
 
         //check that its text matches "You shall not pass!"
+<<<<<<< HEAD
         textView.check(matches(withText("You shall not pass ")));
+=======
+        textView.check(matches(withText("You shall not pass")));
+>>>>>>> origin/Week5
     }
 
     /**
@@ -158,7 +174,11 @@ public class MainActivityTest {
         ViewInteraction appCompatEditText = onView(withId(R.id.editTextPassword));
 
         //perform: type in "password123#$*"
+<<<<<<< HEAD
         appCompatEditText.perform(replaceText("Password@123"), closeSoftKeyboard());
+=======
+        appCompatEditText.perform(replaceText("Password123#$*"), closeSoftKeyboard());
+>>>>>>> origin/Week5
 
         //find the button
         ViewInteraction materialButton = onView(withId(R.id.button));
@@ -170,7 +190,11 @@ public class MainActivityTest {
         ViewInteraction textView = onView(withId(R.id.textView));
 
         //check that the text matches "You shall not pass!
+<<<<<<< HEAD
         textView.check(matches(withText("Your password meets the requirment! ")));
+=======
+        textView.check(matches(withText("Your password meets the requirements")));
+>>>>>>> origin/Week5
 
     }
 
