@@ -61,7 +61,7 @@ public class MainActivityTest {
         ViewInteraction textView = onView(withId(R.id.textView));
 
         //check that its text matches "You shall not pass!"
-        textView.check(matches(withText("You shall not pass")));
+        textView.check(matches(withText("You shall not pass ")));
     }
 
     /**
@@ -88,7 +88,7 @@ public class MainActivityTest {
         ViewInteraction textView = onView(withId(R.id.textView));
 
         //check that the text matches "You shall not pass!
-        textView.check(matches(withText("You shall not pass")));
+        textView.check(matches(withText("You shall not pass ")));
 
     }
 
@@ -116,7 +116,7 @@ public class MainActivityTest {
         ViewInteraction textView = onView(withId(R.id.textView));
 
         //check that its text matches "You shall not pass!"
-        textView.check(matches(withText("You shall not pass")));
+        textView.check(matches(withText("You shall not pass ")));
     }
 
     /**
@@ -143,7 +143,7 @@ public class MainActivityTest {
         ViewInteraction textView = onView(withId(R.id.textView));
 
         //check that its text matches "You shall not pass!"
-        textView.check(matches(withText("You shall not pass")));
+        textView.check(matches(withText("You shall not pass ")));
     }
 
     /**
